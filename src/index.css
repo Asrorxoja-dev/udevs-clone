@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .align-content {
+     @apply mx-auto px-20;   
+    }
+}
+
+
+
+
+body {
+    padding-top: 50px; 
+    font-family: 'Manrope', sans-serif;
+
+  }
+
+  .custom-input, .custom-textarea {
+    border: 1px solid rgb(160, 156, 156);
+    outline: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-input:focus, .custom-textarea:focus {
+    background-color: #fff;
+  }
+  
+
+.custom-input:focus::placeholder, .custom-textarea:focus::placeholder {
+    color: transparent;
+    font-weight: 900;
+  }
+  
+  .custom-input:focus + .placeholder-label, .custom-textarea:focus + .placeholder-label,
+  .custom-input:not(:placeholder-shown) + .placeholder-label, .custom-textarea:not(:placeholder-shown) + .placeholder-label {
+    transform: translate(10px, -20px);
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .placeholder-label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    color: #999;
+  }
+ 
+/* index.css yoki App.css fayliga qo'shing */
+.navbar-center ul > li > a {
+  position: relative;
+  padding-bottom: 5px; /* chiziqcha va matn orasidagi masofa */
+}
+
+.navbar-center ul > li > a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top:5;
+  width: 0;
+  height: 2px;
+  background-color: blue;
+  
+}
+
+.navbar-center ul > li > a:hover::after {
+  width: 100%;
+}
+
+/* Dropdownlar uchun chiziqcha yo'q qilish */
+.dropdown-content ul li a::after {
+  content: none;
+}
+
+/* Add this CSS to your stylesheet */
+/* Add this CSS to your stylesheet */
+
+/* Menu transition */
+.menu-enter {
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-enter-active {
+  transform: translateX(0);
+}
+
+.menu-exit {
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-exit-active {
+  transform: translateX(100%);
+}
+
+/* Icon transition */
+.icon-rotate-enter {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-rotate-enter-active {
+  transform: rotate(180deg);
+}
+
+.icon-rotate-exit {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-rotate-exit-active {
+  transform: rotate(0deg);
+}
+
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;300;400;500;600;800;900&display=swap');
+ 

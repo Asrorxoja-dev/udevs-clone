@@ -1,0 +1,49 @@
+{
+  "navbar": {
+    "direction": "Direction",
+    "command": "Command",
+    "services": "Services",
+    "development": "Development and implementation of ERP systems",
+    "consulting": "IT consulting",
+    "interface": "User interface, User experience design",
+    "mobile": "Development of mobile applications",
+    "optimizing": "Optimization of IT consulting infrastructure",
+    "tools": "Tools",
+    "clients": "Clients",
+    "portfolio": "Portfolio",
+    "deliver": "Deliver",
+    "goodzone": "Goodzone",
+    "smsuz": "SMSUZ",
+    "iman": "IMAN",
+    "language": "Language",
+    "contactUs": "Contact"
+  },
+  "hero": {
+    "title": "IT Outsourcing Company",
+    "itConsulting": "IT consulting",
+    "mobileDevelopment": "Development of mobile applications",
+    "erpDevelopment": "Development and implementation of ERP systems",
+    "uiUxDesign": "User interface, User experience design",
+    "optimizationConsulting": "Optimization of IT consulting infrastructure",
+    "contactUs": "Contact Us",
+    "ourServices": "Our Services"
+  },
+  "services": {
+    "team": "Team",
+    "interface": "User interface, User experience design",
+    "optimization": "Optimization of IT consulting infrastructure",
+    "consulting": "IT consulting",
+    "mobileDevelopment": "Development of mobile applications",
+    "erpDevelopment": "Development and implementation of ERP systems"
+  },
+  "team": {
+    "title": "Team",
+    "description": "For each project, we form a team that includes a project manager, business analyst, UI/UX designer, DevOps, QA engineer, backend and front-end developers.",
+    "dedicatedTeam": "Dedicated team"
+  },
+  "alt": {
+    "logo": "Logo",
+    "hero": "Hero",
+    "teamIcon": "Team Icon"
+  }
+}

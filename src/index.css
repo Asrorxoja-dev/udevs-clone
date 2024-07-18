@@ -84,10 +84,10 @@ body {
   content: none;
 }
 
-/* Add this CSS to your stylesheet */
-/* Add this CSS to your stylesheet */
 
-/* Menu transition */
+
+
+
 .menu-enter {
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
@@ -106,7 +106,7 @@ body {
   transform: translateX(100%);
 }
 
-/* Icon transition */
+
 .icon-rotate-enter {
   transform: rotate(0deg);
   transition: transform 0.3s ease-in-out;
